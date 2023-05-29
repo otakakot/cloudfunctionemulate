@@ -9,3 +9,11 @@ make func
 ```shell
 curl localhost:8080
 ```
+
+```shell
+make docker
+```
+
+```shell
+make reload
+```

@@ -15,5 +15,5 @@ func init() {
 // helloWorld writes "Hello, World!" to the HTTP response.
 func helloWorld(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Hello, World! Request: %+v", r)
-	fmt.Fprintln(w, "Hello, World!")
+	fmt.Fprintln(w, "Hello, Golang!")
 }
